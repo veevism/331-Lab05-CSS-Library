@@ -14,15 +14,8 @@ StudentService.getEvent().then((response) => {
 
 <template>
   <h1>Events For Good</h1>
-  <main class="events">
+  <main class="flex flex-col items-center">
     <StudentCard v-for="student in students" :key="student.id" :student="student"></StudentCard>
   </main>
 </template>
 
-<style scoped>
-.events {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-</style>
