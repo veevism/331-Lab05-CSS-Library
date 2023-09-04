@@ -1,136 +1,215 @@
 {
-  "events": [
-    {
-      "id": 123,
-      "category": "animal welfare",
-      "title": "Cat Adoption Day",
-      "description": "Find your new feline friend at this event.",
-      "location": "Meow Town",
-      "date": "January 28, 2022",
-      "time": "12:00",
-      "petsAllowed": true,
-      "organizer": "Kat Laydee"
-    },
-    {
-      "id": 456,
-      "category": "food",
-      "title": "Community Gardening",
-      "description": "Join us as we tend to the community edible plants.",
-      "location": "Flora City",
-      "date": "March 14, 2022",
-      "time": "10:00",
-      "petsAllowed": true,
-      "organizer": "Fern Pollin"
-    },
-    {
-      "id": 789,
-      "category": "sustainability",
-      "title": "Beach Cleanup",
-      "description": "Help pick up trash along the shore.",
-      "location": "Playa Del Carmen",
-      "date": "July 22, 2022",
-      "time": "11:00",
-      "petsAllowed": false,
-      "organizer": "Carey Wales"
-    },
-    {
-      "id": 1001,
-      "category": "animal welfare",
-      "title": "Dog Adoption Day",
-      "description": "Find your new canine friend at this event.",
-      "location": "Woof Town",
-      "date": "August 28, 2022",
-      "time": "12:00",
-      "petsAllowed": true,
-      "organizer": "Dawg Dahd"
-    },
-    {
-      "id": 1002,
-      "category": "food",
-      "title": "Canned Food Drive",
-      "description": "Bring your canned food to donate to those in need.",
-      "location": "Tin City",
-      "date": "September 14, 2022",
-      "time": "3:00",
-      "petsAllowed": true,
-      "organizer": "Kahn Opiner"
-    },
-    {
-      "id": 1003,
-      "category": "sustainability",
-      "title": "Highway Cleanup",
-      "description": "Help pick up trash along the highway.",
-      "location": "Highway 50",
-      "date": "July 22, 2022",
-      "time": "11:00",
-      "petsAllowed": false,
-      "organizer": "Brody Kill"
-    },
-    {
-      "id": 123,
-      "category": "animal welfare",
-      "title": "Cat Adoption Day",
-      "description": "Find your new feline friend at this event.",
-      "location": "Meow Town",
-      "date": "January 28, 2022",
-      "time": "12:00",
-      "petsAllowed": true,
-      "organizer": "Kat Laydee"
-    },
-    {
-      "id": 456,
-      "category": "food",
-      "title": "Community Gardening",
-      "description": "Join us as we tend to the community edible plants.",
-      "location": "Flora City",
-      "date": "March 14, 2022",
-      "time": "10:00",
-      "petsAllowed": true,
-      "organizer": "Fern Pollin"
-    },
-    {
-      "id": 789,
-      "category": "sustainability",
-      "title": "Beach Cleanup",
-      "description": "Help pick up trash along the shore.",
-      "location": "Playa Del Carmen",
-      "date": "July 22, 2022",
-      "time": "11:00",
-      "petsAllowed": false,
-      "organizer": "Carey Wales"
-    },
-    {
-      "id": 1001,
-      "category": "animal welfare",
-      "title": "Dog Adoption Day",
-      "description": "Find your new canine friend at this event.",
-      "location": "Woof Town",
-      "date": "August 28, 2022",
-      "time": "12:00",
-      "petsAllowed": true,
-      "organizer": "Dawg Dahd"
-    },
-    {
-      "id": 1002,
-      "category": "food",
-      "title": "Canned Food Drive",
-      "description": "Bring your canned food to donate to those in need.",
-      "location": "Tin City",
-      "date": "September 14, 2022",
-      "time": "3:00",
-      "petsAllowed": true,
-      "organizer": "Kahn Opiner"
-    },
-    {
-      "id": 1003,
-      "category": "sustainability",
-      "title": "Highway Cleanup",
-      "description": "Help pick up trash along the highway.",
-      "location": "Highway 50",
-      "date": "July 22, 2022",
-      "time": "11:00",
-      "petsAllowed": false,
-      "organizer": "Brody Kill"
-    }
+  "status": "success",
+  "showTime": [
+      {
+          "_id": "64f04d5ff61c9844a81ac859",
+          "id": "f11bfc46",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-01T00:30:00.000Z"
+      },
+      {
+          "_id": "64f0a81756761497be9281ca",
+          "id": "830ddf83",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-02T10:30:00.000Z"
+      },
+      {
+          "_id": "64f0a82c56761497be928296",
+          "id": "16fea260",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-02T15:45:00.000Z"
+      },
+      {
+          "_id": "64f0a88556761497be928364",
+          "id": "3ab69cff",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-02T18:45:00.000Z"
+      },
+      {
+          "_id": "64f0a88f56761497be928430",
+          "id": "2cc185ff",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-01T18:15:00.000Z"
+      },
+      {
+          "_id": "64f0a89756761497be9284fc",
+          "id": "55609efb",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-01T14:15:00.000Z"
+      },
+      {
+          "_id": "64f0a8b156761497be9285c8",
+          "id": "8993faae",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-03T09:15:00.000Z"
+      },
+      {
+          "_id": "64f0a8be56761497be928694",
+          "id": "1135adcd",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-03T12:30:00.000Z"
+      },
+      {
+          "_id": "64f0a8c156761497be928760",
+          "id": "b554266f",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-03T16:30:00.000Z"
+      },
+      {
+          "_id": "64f0a8ce56761497be92882c",
+          "id": "106481b1",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-04T07:30:00.000Z"
+      },
+      {
+          "_id": "64f0a8dc56761497be9288f8",
+          "id": "5018e955",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-04T11:30:00.000Z"
+      },
+      {
+          "_id": "64f0a8f056761497be9289c6",
+          "id": "094cd670",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-04T16:45:00.000Z"
+      },
+      {
+          "_id": "64f0a8f556761497be928a92",
+          "id": "4197658e",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-04T19:00:00.000Z"
+      },
+      {
+          "_id": "64f0a93356761497be928b5e",
+          "id": "dc0884bc",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-05T12:00:00.000Z"
+      },
+      {
+          "_id": "64f0a93956761497be928c2a",
+          "id": "e120603e",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-05T14:15:00.000Z"
+      },
+      {
+          "_id": "64f0a94156761497be928cf6",
+          "id": "7d8ad04a",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-05T16:30:00.000Z"
+      },
+      {
+          "_id": "64f0a94556761497be928dc2",
+          "id": "9912a4c6",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-05T19:30:00.000Z"
+      },
+      {
+          "_id": "64f0a94f56761497be928e8e",
+          "id": "f1e58543",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-06T08:30:00.000Z"
+      },
+      {
+          "_id": "64f0a95656761497be928f5a",
+          "id": "a4d1f29e",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-06T10:45:00.000Z"
+      },
+      {
+          "_id": "64f0a95c56761497be929026",
+          "id": "6daf69ed",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-06T12:15:00.000Z"
+      },
+      {
+          "_id": "64f0a96656761497be9290f2",
+          "id": "655b3c75",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-06T14:45:00.000Z"
+      },
+      {
+          "_id": "64f0a96b56761497be9291be",
+          "id": "04677100",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-06T17:00:00.000Z"
+      },
+      {
+          "_id": "64f0a97256761497be92928a",
+          "id": "45e8642d",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-06T20:15:00.000Z"
+      },
+      {
+          "_id": "64f0a97956761497be929356",
+          "id": "d85e81b4",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-06T22:30:00.000Z"
+      },
+      {
+          "_id": "64f0a98f56761497be929422",
+          "id": "ce023faf",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-07T01:15:00.000Z"
+      },
+      {
+          "_id": "64f0a99956761497be9294ee",
+          "id": "0ba505ef",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-07T09:45:00.000Z"
+      },
+      {
+          "_id": "64f0a9a056761497be9295ba",
+          "id": "a465f9ab",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-07T14:00:00.000Z"
+      },
+      {
+          "_id": "64f0a9ce56761497be929686",
+          "id": "2e6f1599",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-08T11:30:00.000Z"
+      },
+      {
+          "_id": "64f0a9d856761497be929752",
+          "id": "05a2c55b",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-09T13:00:00.000Z"
+      },
+      {
+          "_id": "64f0a9e256761497be92981e",
+          "id": "1bb8b1b3",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-10T09:00:00.000Z"
+      },
+      {
+          "_id": "64f0a9e756761497be9298ea",
+          "id": "d3ae123e",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-10T11:15:00.000Z"
+      },
+      {
+          "_id": "64f0a9f156761497be9299b6",
+          "id": "3466db64",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-10T13:30:00.000Z"
+      },
+      {
+          "_id": "64f0a9f756761497be929a82",
+          "id": "21a57562",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-10T15:15:00.000Z"
+      },
+      {
+          "_id": "64f0aed881334bd10b8bc4d3",
+          "id": "62ef6a66",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-01T07:31:00.000Z"
+      },
+      {
+          "_id": "64f0e32f15dc21bcc6f965d5",
+          "id": "333ee8c5",
+          "movie": "64f047968d1bacb3eb541667",
+          "dateTime": "2023-09-10T08:15:00.000Z"
+      }
   ]
 }
